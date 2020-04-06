@@ -1,19 +1,12 @@
 import React from 'react'
 /* eslint-disable import/no-webpack-loader-syntax */
 import Content from '!babel-loader!mdx-loader!./content.mdx'
-// import {importMDX} from 'mdx.macro'
+import {mount} from 'cypress-react-unit-test'
 
 describe('content.mdx', () => {
-  let Component
-
-  /* eslint-disable-next-line */
-  // before(() => {
-  //   return importMDX('./content.mdx').then((x) => {
-  //     debugger
-  //   })
-  // })
-
   it('renders', () => {
-    cy.mount(<Content />)
+    mount(<Content />)
+    cy.get('[data-cy=demo]')
+      .should('have.text', 'This is my demo')
   })
 })
