@@ -31,5 +31,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cypress": "4.3.0",
+    "cypress-react-unit-test": "3.2.1",
+    "mdx-loader": "3.0.2"
   }
 }
