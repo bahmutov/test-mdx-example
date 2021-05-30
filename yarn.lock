@@ -4389,10 +4389,10 @@ cyclist@^1.0.1:
   resolved "https://registry.npmjs.org/cyclist/-/cyclist-1.0.1.tgz"
   integrity sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=
 
-cypress-expect@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/cypress-expect/-/cypress-expect-2.4.0.tgz"
-  integrity sha512-XcgL94QIpPDwAOsFWqOitJ23r4oagSFjh/0m56Qdx++JBkT/gwU1K+oCTHFSRsIJsU+OsuUTvOvZ8g9HYt05CQ==
+cypress-expect@2.4.1:
+  version "2.4.1"
+  resolved "https://registry.npmjs.org/cypress-expect/-/cypress-expect-2.4.1.tgz"
+  integrity sha512-pvZ1udMsvv0lmL/s3kQR0wSQohHlkCXWq8G1oRIcNkJ4KV74QayEQtBLGTdGA3XzJAyexVp8Xn1DwrdhgjnS9A==
   dependencies:
     "@bahmutov/all-paths" "1.0.2"
     arg "5.0.0"
